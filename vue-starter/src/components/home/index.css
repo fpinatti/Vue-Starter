@@ -1,0 +1,62 @@
+.view-home {
+  min-height: 100vh;
+  background-color: rgb(254, 164, 188);
+  text-align: center;
+}
+
+.httpInfo {
+    padding: 25px;
+    font-size: 27px;
+}
+
+.logo {
+  /*@apply --colored;*/
+  position: absolute;
+  /*composes: colored;*/
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 150px auto;
+  display: block;
+  width: 200px;
+}
+
+
+.home-banner {
+    padding: 0;
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+.banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/*:root {
+  --banner-bg: {
+    background-color: #4b4b4b;
+  }
+}*/
+
+.banner--box {
+    background-color: #8f8f9c;
+    color: #eee;
+    width: 30%;
+    margin: 0 1%;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 5px;
+}
+
+.banner--box span {
+  display: block;
+  padding: 16px;
+  font-size: 31px;
+}
